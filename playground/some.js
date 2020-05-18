@@ -6,10 +6,10 @@ console.log(p, age);
 
 
 
-// there are data types
+// there are 6 data types
 //string === word or letter
 //number === 2
 //boolean === true or false
 //null === nothing
 //undefined === not yet assigned
-//symbol === 
+//symbol ===
