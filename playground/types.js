@@ -2,6 +2,7 @@
 // there are 6 data types
 //string === word or letter
 //number === 2
+//object === collections {}
 //boolean === true or false
 //null === nothing
 //undefined === not yet assigned
@@ -63,14 +64,11 @@ Math.random() //random number you can provide a range parameter
 Math.floor(20.9999) //give you the lower end of the number so 20
 Math.ceil(20.2) //give you the upper end of number so 21
 
-
-
 // const age = 100.5;
 // const name = 'wes';
 
 // const a = 10;
 // const b = 20;
-
 
 //MATH.FLOOR EXAMPLE:
 const smarties = 20;
@@ -84,28 +82,40 @@ const price = 1034;
 //You can do to the power of in js like so
 10 ** 2 //would equal 100
 
-//NaN stands for not a number 
+//NaN stands for not a number
 
 /*
+EVERYTHING IN JAVASCRIPT IS AN object
+objects are collections
+so you can group togeher data and/or variables
+*/
 const person = {
   first: 'wes',
   last: 'bos',
   age: 100
 };
 
-
+/*UNDEFINED EXPLAINED
+undefined is something that has been created but not UNDEFINED
+for example dog:
+*/
 let dog;
 console.log(dog);
 dog = 'snickers';
 
-
+/*NULL is nothing
+null is something that has a value of nothing like this:
+*/
 let somethingUndefined;
 const somethingNull = null;
 
+
+//here is an example of undefined, chers last name is unknown or undefined
 const cher = {
   first: 'cher'
 };
 
+//whereas teller has explicitly set his last name to null
 const teller = {
   first: 'Raymond',
   last: 'Teller'
@@ -114,6 +124,7 @@ const teller = {
 teller.first = 'Teller';
 teller.last = null;
 
+//undefined and null are both representations of nothing, just in different ways
 */
 
 let isDrawing = false;
