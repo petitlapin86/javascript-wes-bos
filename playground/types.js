@@ -7,7 +7,7 @@
 //undefined === not yet assigned
 //symbol ===
 
-
+//STRINGS
 // there 3 different ways to create strings in js
 const name = 'wes'; //single quote
 const middle = "topher"; //double quote
@@ -54,12 +54,25 @@ document.body.innerHTML = html;
 
 */
 
+//NUMBERS
+// integers are whole number and decimals are called floats
+
+//there are helper methods that help with Math
+Math.round(20.5) //rounds up or down to whole number gives you 21
+Math.random() //random number you can provide a range parameter
+Math.floor(20.9999) //give you the lower end of the number so 20
+Math.ceil(20.2) //give you the upper end of number so 21
+
+
+
 // const age = 100.5;
 // const name = 'wes';
 
 // const a = 10;
 // const b = 20;
-/*
+
+
+//MATH.FLOOR EXAMPLE:
 const smarties = 20;
 const kids = 3;
 const eachKidGets = Math.floor(smarties / kids);
@@ -67,8 +80,11 @@ const dadGets = smarties % kids;
 console.log(`Each kids gets ${eachKidGets}`);
 
 const price = 1034;
-*/
 
+//You can do to the power of in js like so
+10 ** 2 //would equal 100
+
+//NaN stands for not a number 
 
 /*
 const person = {
