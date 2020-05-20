@@ -25,15 +25,24 @@ ya
 I like
 pizza`;
 
+//concatonation is whem you combine two strings
 // in order to concatonate you surround in quotes but technically you can use either style as shown below:
 const hello = 'hello my name is ' + name + ". Nice to meet you";
 
+//this is a very annoying way of doing concatonation and interpolation:
 let hello2 = 'hello my name is ';
 hello2 = hello2 + name;
 hello2 = hello2 + ' Nice to meet you';
 
+
+//this is the newer version of concatonation, using object literals
+//this way is preferable:
 const hello = `hello my name is ${name}. Nice to meet you. I am ${1 + 100} years old`;
 
+//you can perform math right inside an object literal
+const anotherExample = `I am ${1 + 100} years old`;
+
+//you can even write html:
 const html = `
   <div>
     <h2>${name}</h2>
