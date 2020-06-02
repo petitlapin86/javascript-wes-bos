@@ -134,3 +134,5 @@ console.log(ofAge);
 
 age = 100;
 let age2 = 100;
+
+//built in functions
