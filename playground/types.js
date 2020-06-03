@@ -135,4 +135,13 @@ console.log(ofAge);
 age = 100;
 let age2 = 100;
 
-//built in functions
+/*
+built in functions
+javascript comes with all of these built in features
+here are some examples:
+*/
+Math.max(10, 12) //this is a built in function that would return 12 (the highest number)
+parseInt('20.826382638263') //will turn a float into an int
+parse('20') //will turn a float into an int
+console.log //will output to screen or terminal
+date.now()
