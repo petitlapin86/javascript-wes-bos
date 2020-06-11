@@ -30,15 +30,17 @@ function yell(name = 'Silly Goose') {
 const myBill4 = calculateBill(100, undefined, 0.2);
 console.log(myBill4);
 
+//you can run a function right in the backticks using interpolation
+
 
 /*functions are defined and then called or run
 you can define a function in a few different ways:
 
-function givethefunctionaname(give it some params) {
+function giveTheFunctionAName(give it some params) {
   create a function block
 }
 
 to run:
-givethefunctionaname();
+giveTheFunctionAName();
 
 */
