@@ -1,8 +1,10 @@
+
+//this is a basic way to declare a function:
 // function doctorize(firstName) {
 //   return `Dr. ${firstName}`;
 // }
 
-// Anon Function
+// Anonymous Function Example 
 // function (firstName) {
 //   return `Dr. ${firstName}`;
 // }
