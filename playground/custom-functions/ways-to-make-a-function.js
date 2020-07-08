@@ -23,6 +23,8 @@ const inchToCM = inches => inches * 2.54;
 //   return total;
 // }
 
+//here is another arrow function example:
+//we declared a variable called add, set s 
 // const add = (a, b = 3) => a + b;
 
 // returning an object
@@ -58,7 +60,7 @@ const wes = {
     console.log('HEY WESSSSS');
   },
   // Arrow function
-  // arrow functions are just shorthand. => replaces the need to write function  
+  // arrow functions are just shorthand. => replaces the need to write function
   wisperHi: () => {
     console.log('hii wesss im a mouse');
   }
