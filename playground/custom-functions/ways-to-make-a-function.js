@@ -4,12 +4,13 @@
 //   return `Dr. ${firstName}`;
 // }
 
-// Anonymous Function Example 
+// Anonymous Function Example
 // function (firstName) {
 //   return `Dr. ${firstName}`;
 // }
 
 // Function Expression
+//here were saving an anonymous function inside a variable
 // const doctorize = function(firstName) {
 //   return `Dr. ${firstName}`;
 // };
@@ -57,6 +58,7 @@ const wes = {
     console.log('HEY WESSSSS');
   },
   // Arrow function
+  // arrow functions are just shorthand. => replaces the need to write function  
   wisperHi: () => {
     console.log('hii wesss im a mouse');
   }
