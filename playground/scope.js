@@ -24,6 +24,9 @@
 // }
 
 
+//var let and const are scoped differently
+block scoping is used for const and let var can cause scope leakage
+
 const dog = 'snickers';
 
 function logDog(dog) {
