@@ -9,7 +9,10 @@ people.forEach((person, index) => {
 });
 
 // Console Methods
-
+.error will change the way it looks to red
+.table will display in a table
+.count can count how many times a function runs for example
+.group and .groupend can be used to basically test a bunch of stuff in the console and keep it all together
 // Callstack
 
 // Grabbing Elements
