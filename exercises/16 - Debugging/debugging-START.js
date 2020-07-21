@@ -13,11 +13,16 @@ people.forEach((person, index) => {
 .table will display in a table
 .count can count how many times a function runs for example
 .group and .groupend can be used to basically test a bunch of stuff in the console and keep it all together
+
+
 // Callstack
+tell you what function called what function
 
 // Grabbing Elements
+within the dom console you can grab elements from a webpage by $('p') would for example match the first paragraph tag
 
 // Breakpoints
+
 
 // Scope
 
