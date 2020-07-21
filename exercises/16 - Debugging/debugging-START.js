@@ -27,9 +27,10 @@ within the dom console you can grab elements from a webpage by $('p') would for 
 // Scope
 
 // Network Requests
+within the dom tools network request tabs essentially shows the history of what has been preformed
 
 // Break On Attribute
-
+under elements  you can right click on the line of code your interested in and add a break on - this is basically a wa to add  breakpoint
 // Some Setup Code
 
 function doctorize(name) {
